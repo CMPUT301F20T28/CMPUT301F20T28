@@ -6,7 +6,7 @@ public abstract class Shape {
    
 
     public Shape(int x, int y) {
-        this.X = x;
+        this.x = x;
         this.y = y;
     }
 
