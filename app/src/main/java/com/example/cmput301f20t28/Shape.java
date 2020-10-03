@@ -1,7 +1,7 @@
 package com.example.cmput301f20t28;
 
 public abstract class Shape {
-    private int X;
+    private int x;
     private int y;
    
 
