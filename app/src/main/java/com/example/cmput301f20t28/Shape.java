@@ -11,7 +11,7 @@ public abstract class Shape {
     }
 
     public int getX() {
-        return X;
+        return x;
     }
 
     public int getY() {
