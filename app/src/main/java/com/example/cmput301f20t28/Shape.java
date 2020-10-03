@@ -1,9 +1,9 @@
 package com.example.cmput301f20t28;
 
 public abstract class Shape {
-    private int X;//1
+    private int x;
     private int y;
-    private String color;
+    private String color="blue";
 
     public String getColor() {
         return color;
@@ -14,12 +14,12 @@ public abstract class Shape {
     }
 
     public Shape(int x, int y) {
-        X = x;
+        this.x = x;
         this.y = y;
     }
 
     public int getX() {
-        return X;
+        return x;
     }
 
     public int getY() {
@@ -27,7 +27,7 @@ public abstract class Shape {
     }
 
     public void setX(int x) {
-        X = x;
+        this.x = x;
     }
 
     public void setY(int y) {
