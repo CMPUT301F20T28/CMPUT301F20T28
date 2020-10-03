@@ -1,8 +1,17 @@
 package com.example.cmput301f20t28;
 
 public abstract class Shape {
-    private int X;
+    private int X;//1
     private int y;
+    private String color;
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 
     public Shape(int x, int y) {
         X = x;
