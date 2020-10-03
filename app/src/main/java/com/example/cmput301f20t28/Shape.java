@@ -3,6 +3,7 @@ package com.example.cmput301f20t28;
 public abstract class Shape {
     private int x;
     private int y;
+
     private String color="blue";
 
     public String getColor() {
@@ -12,6 +13,7 @@ public abstract class Shape {
     public void setColor(String color) {
         this.color = color;
     }
+
 
     public Shape(int x, int y) {
         this.x = x;
