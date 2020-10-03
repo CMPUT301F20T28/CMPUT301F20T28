@@ -19,7 +19,7 @@ public abstract class Shape {
     }
 
     public void setX(int x) {
-        X = x;
+        this.x = x;
     }
 
     public void setY(int y) {
