@@ -3,7 +3,7 @@ package com.example.cmput301f20t28;
 public abstract class Shape {
     private int X;
     private int y;
-    String color;
+    private String color;
 
     public String getColor() {
         return color;
