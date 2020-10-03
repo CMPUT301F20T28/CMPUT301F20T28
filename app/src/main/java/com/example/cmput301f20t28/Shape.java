@@ -3,10 +3,10 @@ package com.example.cmput301f20t28;
 public abstract class Shape {
     private int X;
     private int y;
-    String color = "blue";
+   
 
     public Shape(int x, int y) {
-        X = x;
+        this.X = x;
         this.y = y;
     }
 
